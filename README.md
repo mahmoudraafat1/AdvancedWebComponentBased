@@ -1,5 +1,5 @@
 # About the project
-This Project is composed of 5 members and the client of this project is Ozone creative studios.<br>
+This Project is composed of 5 team members and the client of this project is Ozone creative studios.<br>
 You can Visit their social network through this links :<br>
 Instagram : https://www.instagram.com/ozone3.studios <br>
 Tiktok : https://www.tiktok.com/@ozone.studios <br>
