@@ -1,4 +1,4 @@
-# The still project still needs
+# The project still needs
 
 1. Fixing Navbar during mobile menu view
 
