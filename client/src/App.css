@@ -10,11 +10,6 @@
     --secondary: hsla(230, 97%, 63%, 0.65);
 }
 
-.ww {
-    color: aqua;
-    font-family: 'PT Sans', sans-serif;
-}
-
 .aboutt {
     width: 100%;
     height: 90vh;
@@ -22,8 +17,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: rgb(2, 0, 36);
-    background: linear-gradient(135deg, var(--primary), var(--secondary)), url('/client/src/images/studio.jpg') no-repeat center center / cover;
+    background: rgb(0, 0, 0);
 }
 
 .menuu {
@@ -34,7 +28,6 @@
     align-items: center;
     justify-content: center;
     background: rgb(2, 0, 36);
-    background: linear-gradient(135deg, var(--primary), var(--secondary)), url('/client/src/images/studio.jpg') no-repeat center center / cover;
 }
 
 .aboutBottom {
@@ -69,8 +62,7 @@
     height: 90vh;
     align-items: center;
     justify-content: center;
-    background: rgb(2, 0, 36);
-    background: linear-gradient(135deg, var(--primary), var(--secondary)), url('/client/src/images/studio.jpg') no-repeat center center / cover;
+    background: rgb(0, 0, 0);
     font-size: 3rem;
 }
 
@@ -86,6 +78,11 @@
     background-size: fill;
     background-repeat: no-repeat;
     color: #000000;
+    font-size: 100px;
+}
+
+.contact>h1 {
+    color: #ffffff;
     font-size: 100px;
 }
 
@@ -109,7 +106,7 @@
     width: 100%;
     height: 90vh;
     display: flex;
-    font-size: 70px;
+    font-size: 50px;
 }
 
 #contact-form {
@@ -124,8 +121,8 @@
     height: 40px;
     width: 80%;
     border: none;
-    border-bottom: 1px solid #121619;
-    color: black;
+    border-bottom: 1px solid #ffffff;
+    color: rgb(255, 255, 255);
     border-radius: 20px;
     border-left: 1px solid white;
     border-top: 1px solid white;

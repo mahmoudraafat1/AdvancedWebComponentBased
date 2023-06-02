@@ -1,23 +1,33 @@
 import React from 'react';
-import '../../App.css';
-import Footer from '../Footer';
 
-export default function About() {
-    return ( <
-        >
-        <
-        div className = "aboutt" >
-        <
-        div className = "aboutBottom" >
-        <
-        h1 > About Us < /h1> <
-        p >
-        Lorem ipsum dolor sit amet consectetur adipisicing elit.Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio, eaque rerum!Provident similique accusantium nemo autem.Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!Impedit sit sunt quaerat, odit, tenetur error, harum nesciunt ipsum debitis quas aliquid.Reprehenderit, quia.Quo neque error repudiandae fuga ? Ipsa laudantium molestias eos sapiente officiis modi at sunt excepturi expedita sint ? Sed quibusdam recusandae alias error harum maxime adipisci amet laborum.Perspiciatis minima nesciunt dolorem!Officiis iure rerum voluptates a cumque velit <
-        /p> <
-        /div> <
-        /div> <
-        Footer / >
-        <
-        />
-    );
-}
+
+const About = () => {
+  return (
+    <div name='about' className='w-full h-screen bg-[#070707] text-gray-300'>
+      <div className='flex flex-col justify-center items-center w-full h-full'>
+        <div className='max-w-[1000px] w-full grid grid-cols-2 gap-8'>
+          <div className='sm:text-right pb-8 pl-4'>
+            <p className='text-4xl font-bold inline border-b-4 border-pink-600'>
+            About Us
+            </p>
+          </div>
+          <div></div>
+          </div>
+          <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
+            <div className='sm:text-right text-4xl font-bold'>
+              <p>Hi,  We are Ozone Studio</p>
+            </div>
+            <div>
+              <p className='text-1xl font-serif'>Ozone3 Studio is a premier recording, singing, and acting studio dedicated to providing exceptional services to artists, musicians, and actors. Our studio is designed to provide a comfortable and inspiring environment where artists can create, collaborate, and bring their ideas to life.
+
+
+     </p>  
+     <p className='text-1xl font-serif' >At Ozone3 Studio, we understand that every artist has unique needs and preferences. That's why we offer a range of services to cater to your specific requirements, including music production, audio engineering, vocal recording, mixing and mastering, and video production.</p>
+            </div>
+          </div>
+      </div>
+    </div>
+  );
+};
+
+export default About;

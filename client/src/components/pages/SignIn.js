@@ -1,6 +1,11 @@
-import React from 'react';
-import '../../App.css';
+import React from 'react'
 
-export default function SignIn() {
-    return <h1 className = 'sign-in' > SIGN IN < /h1>;
+const signin = () => {
+  return (
+    <div id="signin" className="text-black">
+      Sign In
+    </div>
+  )
 }
+
+export default signin
