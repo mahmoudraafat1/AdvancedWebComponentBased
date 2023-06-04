@@ -1,0 +1,50 @@
+body{
+    background: radial-gradient(#e5e5e5, #ffff,#e5e5e5);
+}
+.card{
+    width: 25rem;
+}
+.card:hover{
+    box-shadow: 5px 10px 20px 1px rgba(255, 255, 255, 0.253) !important;
+}
+.card-title
+{
+    padding-bottom: 10px;
+}
+.card-body{
+    padding-top: 0.5rem !important;
+}
+.card-text{
+    font-size:1.3rem;
+    padding:1.2rem 2.2rem;
+
+}
+.container-fluid .row{
+    padding-top: 3rem;
+}
+.overflow{
+    overflow: hidden;
+}
+.card-img-top{
+    transform: scale(1);
+}
+.card-img-top:hover{
+    transform:scale(1.2)
+    
+}
+.title-main{
+    padding-top: 20px;
+    text-align: center;
+}
+.fa-spotify
+{
+    font-size: 40px;
+    color: green;
+    padding: 5px;
+}
+.fa-youtube
+{
+    font-size: 40px;
+    color: red;
+    padding: 5px;
+}
