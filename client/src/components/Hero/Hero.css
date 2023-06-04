@@ -1,0 +1,19 @@
+.hero-main{
+    background-color: #27292a;
+    color: rgb(156, 207, 60);
+    
+    padding: 100px;
+    
+}
+.hero-subtitle{
+    font-size: 40px;
+    text-transform: uppercase;
+    padding-top: 20px;
+
+}
+.hero-title{
+    font-size: 60px;
+    text-transform: uppercase;
+    padding-top: 20px;
+
+}
